@@ -5,7 +5,7 @@ import java.util.*;
 import java.time.*;
 
 public class SistemaPessoas {
-    private List<Pessoa> listaPessoas = new ArrayList<>();
+    List<Pessoa> listaPessoas = new ArrayList<>();
 
     public void cadastrarPessoa() {
         Scanner scanner = new Scanner(System.in);

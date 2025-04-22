@@ -74,14 +74,14 @@ public class Campeonato {
         return listaTimes.get(escolhaTime - 1);
     }
 
-    private String registrarPlacar() {
+    String registrarPlacar() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o placar da partida (ex: 2x1): ");
         String resultado = scanner.nextLine();
         return resultado;
     }
 
-    private void atualizarPontos(Time time1, Time time2, String resultado) {
+    void atualizarPontos(Time time1, Time time2, String resultado) {
         String[] placar = resultado.split("x");
         int golsTime1 = Integer.parseInt(placar[0].trim());
         int golsTime2 = Integer.parseInt(placar[1].trim());

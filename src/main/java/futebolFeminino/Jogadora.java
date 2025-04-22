@@ -33,8 +33,6 @@ public class Jogadora {
         return this.numeroCamisa;
     }
 
-
-
     public String receberNome() {
         System.out.print("Por favor, digite o nome da jogadora que deseja cadastrar: ");
         setNome(scanner.nextLine());
@@ -54,10 +52,6 @@ public class Jogadora {
         setNumeroCamisa(scanner.nextInt());
         int numeroCamisa = getNumeroCamisa();
         return numeroCamisa;
-    }
-
-    public void registrarPartidaPlacar() {
-
     }
 
 }
